@@ -14,7 +14,9 @@ DBUS是一种进程间远程调用的机制。 官方网站是： https://www.fr
 
 QT中有很多DBUS的示例程序，可以使用它们来测试DBUS通信。 
 
-qdbusviewer.exe未测试通过。可用 Example 下 dbus 内的 chat 程序测试。
+使用qdbusviewer.exe，在浏览org.freedesktop.DBUs的DBUS接口时，会报一部分错误，不过这并不影响实际的DBUS通信开发！
+
+可用 Example 下 dbus 内的 chat 程序测试。
 
 开发程序时，需要 dbus-1.dll 复制到输出目录内，并在“运行设置”内的“环境”增加 “DBUS_SESSION_BUS_ADDRESS" 设置，其值与 dbus-env.bat 内”DBUS_SESSION_BUS_ADDRESS“值相同。
 
