@@ -29,3 +29,7 @@ QT中有很多DBUS的示例程序，可以使用它们来测试DBUS通信。
 https://stackoverflow.com/a/34364870
 
 https://www.cnblogs.com/henkk/p/16547724.html
+
+# 已知问题
+
+- dbus-monitor无法在PowerShell下使用。即使运行了“dbus-env.bat”，还是报“Failed to open connection to session bus: Failed to get autolaunch address from launched dbus-daemon”。但在 CMD 下运行正常。
